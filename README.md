@@ -1,4 +1,4 @@
-# Java-Multithreaded-Gzip---PigZ
+# Java-Multithreaded-Gzip
 Java implementation of pigz, a multithreaded Gzip, project for UCLA CS 131
 
 Pigz is a multithreaded version of Gzip that is implemented in C. We want to
@@ -109,8 +109,3 @@ too many processors
 When examining the performance of our program vs GZIP, it is obvious our 
 program is much faster. PIGZJ can compete with PIGZ, although pigz has an 
 edge (C is slightly faster anyways).
-
-In the multithreaded comparison, We notice that there is a significant 
-improvement from using 1 processor to using 4, as expected. However, 
-there is no more improvement after such, most likely because there is only 
-4 processors available.
