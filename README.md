@@ -1,5 +1,5 @@
 # PigzJ - Parallel Implementation Gzip Java
-Java implementation of pigz, a multithreaded Gzip, project for UCLA CS 131
+Java implementation of pigz, a multithreaded Gzip
 
 Pigz is a multithreaded version of Gzip that is implemented in C. We want to
 emulate this using Java.
